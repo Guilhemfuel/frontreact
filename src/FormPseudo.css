@@ -1,0 +1,37 @@
+.Input {
+    border: none;
+    border-bottom: 1px solid #383838;
+    background-color: #42a2ff;
+    color: #383838;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Input::placeholder {
+    color: #383838;
+}
+
+.Button {
+    color: #42a2ff;
+    background-color: #383838;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.Button:hover {
+    color: white;
+}
+
+.Error-message {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
